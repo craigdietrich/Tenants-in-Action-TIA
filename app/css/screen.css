@@ -1,0 +1,64 @@
+body {
+	background-color:#ffffff; margin:60px 0px 40px 0px;
+	text-align:center; font-family: 'Open Sans', sans-serif;
+	background-image:url('gradient.jpg'); background-repeat:repeat-x;
+}
+body > div {text-align:left; width:700px; margin-left:auto; margin-right:auto;}
+p {line-height:150%; font-weight:300;}
+a {color:#459e00; text-decoration:none;}
+a:hover {text-decoration:underline;}
+hr {color:#aaaaaa; background-color:#aaaaaa; height:1px; overflow:hidden; border:0;}
+label {cursor:pointer;}
+noscript {
+	display:block; margin:0px 0px 20px 0px; padding:15px 20px 15px 20px; background:#ff9c9c; font-size:14px; font-weight:bold;
+	-webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;
+}
+fieldset {border:0; padding:0; margin-left:-4px; display:inline; white-space:nowrap; display:block;}
+fieldset.lang {margin-top:14px;}
+sup {font-size:12px; font-weight:normal; color:#910000;}
+
+#two, #three {display:none;}
+.small {font-size:12px;}
+.button_lm {margin-left:20px;}
+
+.l {float:left; width:49%;}
+.r {float:right; width:49%;}
+.tf {float:left; width:20%; white-space:nowrap;}
+.ft {float:left; width:60%; white-space:nowrap; text-align:center;}
+.tr {text-align:right;}
+
+.main_image_wrapper img {-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; margin-bottom:8px;}
+
+#home_header {display:none;}
+#home_image_wrapper {width:300px; float:left;}
+#home_image_wrapper img {width:270px; float:left;}
+#home_text {max-width:400px; float:left; padding-top:15px;}
+#home_text select {
+	-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border:solid 1px green; font-weight:bold;
+	padding:4px 12px 4px 8px; font-size:12px; 
+}
+#home_text select, #home_text .ui-button {margin:10px 0px 20px 0px;}
+
+.notice {
+	background:#dddddd; padding:6px 10px 6px 10px; text-align:center; font-size:larger; font-weight:300;
+	-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; font-size:14px;
+}
+.notice small {font-size:14px;}
+.footer {margin-top:50px;}
+
+.error {color:red;margin-bottom:20px;}
+
+.submit .text_input {width:300px; margin-top:6px; margin-bottom:20px;}
+.submit textarea {width:300px; height:50px; margin-top:6px;}
+.submit form, .submit fieldset {font-size:smaller;}
+.submit fieldset {margin-top:12px;}
+.submit .field_name {color:#910000;}
+.submit .submit_button {margin-top:10px;}
+.submit .commit textarea {width:400px; height:75px;}
+.submit .violations {margin:6px 0px 16px 15px; padding:0px 0px 0px 0px;}
+.submit legend {padding-bottom:6px; color:#910000;}
+.submit .category_row {display:block; padding-top:4px; padding-bottom:6px;}
+.submit .category_row label {font-weight:bold;}
+.submit .button_spacer {overflow:hidden;font-size:1px;height:14px;margin:0;padding:0;}
+
+.tos_checkbox_wrapper .button {margin-top:20px;}

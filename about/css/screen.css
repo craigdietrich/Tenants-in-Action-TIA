@@ -1,0 +1,35 @@
+body {
+	background-color:#ffffff; margin:60px 0px 40px 0px;
+	text-align:center; font-family: 'Open Sans', sans-serif;
+	background-image:url('gradient.jpg'); background-repeat:repeat-x;
+}
+body > div {text-align:left; width:700px; margin-left:auto; margin-right:auto;}
+p {line-height:150%; font-weight:300;}
+a {color:#459e00; text-decoration:none;}
+a:hover {text-decoration:underline;}
+hr {color:#aaaaaa; background-color:#aaaaaa; height:1px; overflow:hidden; border:0;}
+label {cursor:pointer;}
+noscript {
+	display:block; margin:0px 0px 0px 0px; padding:15px 20px 15px 20px; background:#ff9c9c; font-size:14px; font-weight:bold;
+	-webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;
+}
+#content {position:relative;}
+#content > h3 {margin:0px 0px 0px 0px; padding:20px 0px 0px 0px;}
+#content > p.title {padding-top:10px;}
+#content img {margin-right:30px; margin-bottom:15px;}
+#content h3.title {display:none;}
+#content .subtitle {padding-top:8px;}
+.return {position:absolute; top:20px; left:0px; width:100%; margin:0; text-align:center;}
+.return > div {width:700px; text-align:left; margin-left:auto; margin-right:auto;}
+.return a {font-size:12px;}
+.return .ui-button {margin-right:30px;}
+.return .about {font-size:16px; padding-top:1px;}
+.return .left {float:left;}
+.return .right {float:right;}
+.return fieldset {padding:1px 12px 2px 6px; border:0;}
+.notice {
+	background:#dddddd; padding:6px 10px 6px 10px; text-align:center; font-size:larger; font-weight:300;
+	-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; font-size:14px;
+}
+.notice small {font-size:14px;}
+h4.footer {margin-top:0px; padding-top:0px;}

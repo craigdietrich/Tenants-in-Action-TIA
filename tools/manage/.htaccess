@@ -1,0 +1,4 @@
+AuthName "Please login to continue" 
+AuthType Basic 
+AuthUserFile /home/tenantsinaction/.htpasswd 
+require valid-user

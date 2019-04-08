@@ -1,0 +1,7 @@
+Options +FollowSymLinks -MultiViews
+# Turn mod_rewrite on
+RewriteEngine On
+
+RewriteRule ^(la)$ $1/ [NC,L,QSA]
+RewriteRule ^la/submit.php(.*)$ submit.php?r=la&%{QUERY_STRING} [L,NC]
+RewriteRule ^(la)/(.*)$ index.php?r=$1&%{QUERY_STRING} [L,NC]

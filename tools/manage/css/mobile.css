@@ -1,0 +1,21 @@
+p {margin-top:0px; padding-top:8px;}
+h4 {padding:0px 0px 0px 0px; margin:8px 0px 14px 0px;}
+hr {color:#aaaaaa; background-color:#aaaaaa; height:1px; overflow:hidden; border:0; margin-top:10px; margin:10px 0px 10px 0px;}
+
+h4.title {padding:0px 0px 0px 0px; margin:8px 0px 6px 0px;}
+p.title {padding-bottom:6px;}
+h4 a, p a {color:#459e00 !important;}
+
+.subtitle {display:none;}
+
+table .thumb {display:none;}
+.saved {clear:both; color:green; font-weight:bold; padding-top:10px;}
+
+#content img {margin-right:30px; margin-bottom:5px;}
+#content .subtitle .title {display:none;}
+
+p.footer {margin-bottom:4px !important;}
+p.footer-bottom {margin-bottom:18px !important;}
+
+hr.footer {margin-top:20px; margin-bottom:10px;}
+h4.footer {padding:10px 0px 0px 0px; margin:0px 0px 12px 0px;}
